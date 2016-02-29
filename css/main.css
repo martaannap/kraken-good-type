@@ -13,20 +13,49 @@ header {
   background-color: #259f95;
   color: #fff;
   padding: 1.5em;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin: .5em;
 }
 
-p::first-line{
+h1 {
+  font-weight: normal;
+}
+
+p {
+  margin: 1.5em;
+  max-width: 47em;
+  text-indent: 20px;
+  text-align: left;
+}
+
+header + p::first-line {
   color: #1e7c74;
   font-style: italic;
 }
 
-main {
-  padding: 1.5em;
+img {
+  display: block;
+  width: 100%;
 }
-
 
 .chapter-num {
   display: block;
   font-style: italic;
   font-size: 1rem;
+}
+
+.colon {
+  display: none;
+}
+
+body {
+  max-width: 47em;
+  margin: 0;
+}
+
+footer {
+  background-color: #259f95;
+  color: #fff;
+  padding: 1.5em;
 }
