@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box;
+  font: normal 100%/1.5, "Libre Basketville";
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header {
+  background-color: #259f95;
+  color: #fff;
+  padding: 1.5em;
+}
+
+p{
+  color: #1e7c74;
+}
+
+main {
+  padding: 1.5em;
+}
+
+
+.chapter-num {
+  display: block;
+  font-style: italic;
+  font-size: 1rem;
+}
