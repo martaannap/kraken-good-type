@@ -1,7 +1,8 @@
 html {
   box-sizing: border-box;
-  font: normal 100%/1.5, "Libre Basketville";
+  font: normal 100%/1.5, "Libre Baskerville";
   line-height: 1.5;
+  color: #222;
 }
 
 *, *::before, *::after {
@@ -14,8 +15,9 @@ header {
   padding: 1.5em;
 }
 
-p{
+p::first-line{
   color: #1e7c74;
+  font-style: italic;
 }
 
 main {
